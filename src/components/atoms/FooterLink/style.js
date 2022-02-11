@@ -12,7 +12,6 @@ const FooterText = styled.a`
   font-size: 1rem;
   line-height: 24px;
   color: #2d2d2d;
-  margin-right: 1rem;
 
   @media (max-width: 768px) {
     font-size: 0.7rem;

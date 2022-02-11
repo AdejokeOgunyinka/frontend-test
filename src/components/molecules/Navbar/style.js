@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const NavbarContainer = styled.nav`
   height: 5.7rem;
-  /* padding: 1.75rem 15rem; */
+  padding: 1.75rem 15rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
