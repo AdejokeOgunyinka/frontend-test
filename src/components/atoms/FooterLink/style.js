@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 const FooterLinkSpan = styled.span`
   display: flex;
+  cursor: pointer;
 `;
 
 const FooterText = styled.a`
