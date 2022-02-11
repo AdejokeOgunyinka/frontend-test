@@ -3,9 +3,9 @@ import { DownloadBtnContainer } from "./style";
 import AppleIcon from "../../../assets/apple.svg";
 import PlaystoreIcon from "../../../assets/playstore.svg";
 
-const DownloadButton = ({ apple }) => {
+const DownloadButton = ({ apple, className }) => {
   return (
-    <DownloadBtnContainer>
+    <DownloadBtnContainer className={className}>
       <img src={apple ? AppleIcon : PlaystoreIcon} alt="apple or playstore" />
       <div>
         <p>Download on the</p>
