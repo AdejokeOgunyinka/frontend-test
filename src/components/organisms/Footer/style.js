@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const FooterContainer = styled.footer`
-  height: 25.9rem;
+  min-height: 25.9rem;
   display: flex;
   /* padding: 1.75rem 15rem; */
 
@@ -15,6 +15,10 @@ const FooterContainer = styled.footer`
     flex-direction: column;
     flex-basis: 25%;
     text-align: left;
+
+    @media (max-width: 768px) {
+      flex-basis: 50%;
+    }
 
     h4 {
       font-family: "TomatoGroteskBold";
