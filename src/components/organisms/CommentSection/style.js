@@ -19,6 +19,10 @@ const CommentSectionContainer = styled.section`
       width: 35rem;
       align-self: center;
 
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+
       &__text {
         font-family: "DM Sans", sans-serif;
         font-style: normal;
@@ -31,10 +35,15 @@ const CommentSectionContainer = styled.section`
       }
     }
     &__inner {
-      width: 100vw;
       display: flex;
       column-gap: 1rem;
       justify-content: center;
+
+      @media (max-width: 768px) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
     }
   }
 `;
