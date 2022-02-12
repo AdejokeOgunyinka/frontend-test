@@ -74,6 +74,17 @@ const DownloadSectionContainer = styled.section`
       align-self: center;
     }
   }
+
+  .phone {
+    filter: drop-shadow(0px 1.60087px 16.0087px rgba(53, 71, 89, 0.15));
+    animation: slide-in 3s linear;
+    transition: .5s ease-in;
+  }
+
+  @keyframes slide-in{
+  0%{
+    transform: translateY(400px);
+  }
 `;
 
 export { DownloadSectionContainer };

@@ -16,7 +16,7 @@ const DownloadSection = () => {
         </p>
         <DownloadButtons className="download__buttons" />
       </div>
-      <img src={PhoneImage} alt="Smartphone" />
+      <img src={PhoneImage} alt="Smartphone" className="downloader" />
     </DownloadSectionContainer>
   );
 };

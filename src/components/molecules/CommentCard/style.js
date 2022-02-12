@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 const CommentCardContainer = styled.div`
-  width: 1000px;
+  width: 25.56rem;
   height: 15.56rem;
   border: 1px solid #ecfefe;
   box-sizing: border-box;
   box-shadow: 0px 12px 24px rgba(64, 187, 195, 0.15);
-  border-radius: 10px;
+  border-radius: 0.625rem;
   padding: 1rem;
   position: relative;
 
