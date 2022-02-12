@@ -15,6 +15,12 @@ const Header = () => {
         <DownloadButtons />
       </div>
       <img src={PhoneImage} alt="phone" className="phone" />
+
+      <div className="bubble x1"></div>
+      <div className="bubble x2"></div>
+      <div className="bubble x3"></div>
+      <div className="bubble x3"></div>
+      <div className="bubble x4"></div>
     </HeaderContainer>
   );
 };
