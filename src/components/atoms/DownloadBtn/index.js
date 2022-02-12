@@ -1,7 +1,7 @@
 import React from "react";
 import { DownloadBtnContainer } from "./style";
 import AppleIcon from "../../../assets/apple.svg";
-import PlaystoreIcon from "../../../assets/playstore.svg";
+import PlaystoreIcon from "../../../assets/playstore.webp";
 
 const DownloadButton = ({ apple, className }) => {
   return (
