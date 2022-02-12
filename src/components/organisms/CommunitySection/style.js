@@ -6,11 +6,13 @@ const CommunitySectionContainer = styled.section`
   column-gap: 10rem;
   align-items: center;
   justify-content: center;
+  margin-top: 4rem;
 
   @media (max-width: 768px) {
     flex-direction: column-reverse;
     row-gap: 2.5rem;
     padding: 2rem;
+    margin-top: 2rem;
   }
 
   .community {

@@ -2,14 +2,19 @@ import styled from "styled-components";
 
 const HeaderContainer = styled.header`
   min-height: 33rem;
-  padding: 1.5rem 13rem 3.5rem; 13rem;
+  padding: 4.5rem 13rem 4.5rem; 13rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+
 
   @media (max-width: 900px) {
     flex-direction: column;
     padding: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
   }
 
   @media (min-width: 1500px) {
@@ -155,7 +160,8 @@ const HeaderContainer = styled.header`
 	border-radius: 50%;
   height: 200px;
 	position: absolute;
-	width: 200px;
+	width: 100%;
+  z-index: -999;
 }
 
 .bubble:after {
