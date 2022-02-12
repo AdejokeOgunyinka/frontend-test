@@ -10,6 +10,8 @@ import WomanWithBookimage from "../../../assets/woman2-peering-book.svg";
 import AstronautImage from "../../../assets/astronaut.svg";
 import ManWithBellImage from "../../../assets/man-with-bell.svg";
 import AssetSection from "../../organisms/AssetSection";
+import AppSavingsSection from "../../organisms/AppSavingSection";
+import RegulationSection from "../../organisms/RegulationSection";
 
 const LandingPage = () => {
   const infoDetails = [
@@ -56,6 +58,8 @@ const LandingPage = () => {
         />
       ))}
       <AssetSection />
+      <AppSavingsSection />
+      <RegulationSection />
       <Footer />
     </>
   );
