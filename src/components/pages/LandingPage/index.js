@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../../molecules/Navbar";
 import Header from "../../organisms/Header";
 import Footer from "../../organisms/Footer";
-import PartnerImage from "../../../assets/partners.svg";
+import PartnerImage from "../../../assets/partners.webp";
 import { PartnerSection } from "./style";
 import InfoSection from "../../organisms/InfoSection";
 import WomanWithAwardImage from "../../../assets/woman1-up-gaze.svg";
@@ -12,6 +12,7 @@ import ManWithBellImage from "../../../assets/man-with-bell.svg";
 import AssetSection from "../../organisms/AssetSection";
 import AppSavingsSection from "../../organisms/AppSavingSection";
 import RegulationSection from "../../organisms/RegulationSection";
+import CommunitySection from "../../organisms/CommunitySection";
 
 const LandingPage = () => {
   const infoDetails = [
@@ -60,6 +61,7 @@ const LandingPage = () => {
       <AssetSection />
       <AppSavingsSection />
       <RegulationSection />
+      <CommunitySection />
       <Footer />
     </>
   );

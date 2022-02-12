@@ -1,6 +1,6 @@
 import React from "react";
 import { AppSavingSectionContainer } from "./style";
-import PhoneSavingsIcon from "../../../assets/phone-rise-app.svg";
+import PhoneSavingsIcon from "../../../assets/phone-rise-app.webp";
 import Button from "../../atoms/Button";
 
 const AppSavingsSection = () => {

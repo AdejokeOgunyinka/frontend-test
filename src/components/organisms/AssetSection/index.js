@@ -1,8 +1,8 @@
 import React from "react";
 import { AssetSectionContainer } from "./style";
-import StockIcon from "../../../assets/stocks.svg";
-import RealEstateIcon from "../../../assets/real-estate.svg";
-import FixedIncomeIcon from "../../../assets/fixed-income.svg";
+import StockIcon from "../../../assets/stocks.webp";
+import RealEstateIcon from "../../../assets/real-estate.webp";
+import FixedIncomeIcon from "../../../assets/fixed-income.webp";
 import AssetCard from "../../molecules/AssetCard";
 
 const AssetSection = () => {
