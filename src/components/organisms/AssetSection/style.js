@@ -7,7 +7,7 @@ const AssetSectionContainer = styled.section`
     padding: 2rem;
   }
 
-  @media (min-width: 1200px) {
+  @media (min-width: 1500px) {
     padding: 1.5rem 25rem;
   }
 

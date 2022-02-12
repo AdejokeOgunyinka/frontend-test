@@ -7,7 +7,11 @@ const Link = ({ text, rightArrow, className }) => {
   return (
     <LinkContainer className={className}>
       <LinkElement>{text}</LinkElement>
-      <img src={rightArrow ? ArrowRight : ArrowDown} alt="Arrow" />
+      <img
+        src={rightArrow ? ArrowRight : ArrowDown}
+        alt="Arrow"
+        className="arrow"
+      />
     </LinkContainer>
   );
 };
