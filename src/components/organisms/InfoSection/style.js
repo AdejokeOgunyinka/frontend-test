@@ -14,7 +14,7 @@ const InfoSectionContainer = styled.section`
     align-items: center;
   }
 
-  @media (min-width: 1200px) {
+  @media (min-width: 1500px) {
     padding: 1.5rem 25rem;
   }
 

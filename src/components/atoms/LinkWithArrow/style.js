@@ -3,6 +3,12 @@ import styled from "styled-components";
 const LinkContainer = styled.div`
   cursor: pointer;
   display: flex;
+  align-items: center;
+
+  .arrow {
+    width: 0.625rem;
+    height: 0.75rem;
+  }
 `;
 
 const LinkElement = styled.a`

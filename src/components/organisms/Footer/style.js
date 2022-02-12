@@ -10,7 +10,7 @@ const FooterContainer = styled.footer`
     padding: 2rem;
   }
 
-  @media (min-width: 1200px) {
+  @media (min-width: 1500px) {
     padding: 0.5rem 25rem 1.75rem 25rem;
   }
 

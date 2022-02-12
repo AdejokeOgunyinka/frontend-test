@@ -11,7 +11,6 @@ const RegulationSectionContainer = styled.section`
 
   .regulation-section {
     width: 100%;
-    /* width: 23.25rem; */
     height: 100%;
     display: flex;
     justify-content: center;
@@ -38,8 +37,7 @@ const RegulationSectionContainer = styled.section`
     }
 
     &__text-section {
-      flex-basis: 24%;
-      width: 31.5rem;
+      width: 41.5rem;
       text-align: center;
       color: #2d2d2d;
       display: flex;

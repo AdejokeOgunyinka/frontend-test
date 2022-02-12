@@ -11,7 +11,7 @@ const HeaderContainer = styled.header`
     padding: 2rem;
   }
 
-  @media (min-width: 1200px) {
+  @media (min-width: 1500px) {
     padding: 3.5rem 25rem;
   }
 

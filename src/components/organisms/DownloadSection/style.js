@@ -21,7 +21,7 @@ const DownloadSectionContainer = styled.section`
     justify-content: unset;
   }
 
-  @media (min-width: 1200px) {
+  @media (min-width: 1500px) {
     margin: 3.5rem 25rem;
   }
 
