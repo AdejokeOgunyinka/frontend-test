@@ -1,32 +1,38 @@
 import styled from "styled-components";
 
 const InfoSectionContainer = styled.section`
-  padding: 3.5rem 13rem;
+  padding: 0.5rem 13rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  column-gap: 4rem;
   flex-direction: ${(props) => props.flexDirection};
 
-  @media (max-width: 768px) {
-    width: 100%;
+  @media (max-width: 900px) {
     padding: 2rem;
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
   }
 
+  @media (min-width: 1200px) {
+    padding: 1.5rem 25rem;
+  }
+
   .info-section {
-    width: 23.5rem;
-    margin-right: 4.625rem;
+    width: 30rem;
     text-align: left;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
 
-    @media (max-width: 768px) {
+    @media (max-width: 900px) {
       margin-right: 0;
       width: 100%;
       text-align: center;
+    }
+
+    @media (min-width: 1200px) {
+      text-align: left;
     }
 
     h3 {
@@ -34,6 +40,7 @@ const InfoSectionContainer = styled.section`
       font-style: normal;
       font-weight: 600;
       font-size: 2rem;
+      margin: 0;
     }
 
     h5 {
@@ -43,15 +50,24 @@ const InfoSectionContainer = styled.section`
       font-size: 16px;
       line-height: 24px;
       color: #4a5050;
+      margin: 0rem;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
     }
   }
 
   .image {
     width: 30rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 900px) {
       width: 20rem;
-      height: 20rem;
+      height: 15rem;
+    }
+  }
+
+  .link {
+    @media (max-width: 900px) {
+      display: none;
     }
   }
 `;

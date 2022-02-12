@@ -3,9 +3,9 @@ import { LinkContainer, LinkElement } from "./style";
 import ArrowRight from "../../../assets/right-arrow.svg";
 import ArrowDown from "../../../assets/down-arrow.svg";
 
-const Link = ({ text, rightArrow }) => {
+const Link = ({ text, rightArrow, className }) => {
   return (
-    <LinkContainer>
+    <LinkContainer className={className}>
       <LinkElement>{text}</LinkElement>
       <img src={rightArrow ? ArrowRight : ArrowDown} alt="Arrow" />
     </LinkContainer>

@@ -4,10 +4,14 @@ const FooterContainer = styled.footer`
   min-height: 14.9rem;
   display: flex;
   flex-wrap: wrap;
-  padding: 1.75rem 15rem;
+  padding: 0.5rem 15rem 1.75rem 15rem;
 
-  @media (max-width: 768px) {
+  @media (max-width: 900px) {
     padding: 2rem;
+  }
+
+  @media (min-width: 1200px) {
+    padding: 0.5rem 25rem 1.75rem 25rem;
   }
 
   .logo {

@@ -5,6 +5,16 @@ const PartnerSection = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 768px) {
+    padding: 1rem;
+  }
+
+  .partner-image {
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+  }
 `;
 
 export { PartnerSection };
