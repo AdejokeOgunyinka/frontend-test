@@ -39,7 +39,9 @@ const CommunitySectionContainer = styled.section`
     }
 
     &__image {
-      width: 100%;
+      @media (max-width: 768px) {
+        width: 100%;
+      }
     }
   }
 `;
