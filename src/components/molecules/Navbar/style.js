@@ -2,13 +2,17 @@ import styled from "styled-components";
 
 const NavbarContainer = styled.nav`
   height: 5.7rem;
-  padding: 1.75rem 15rem;
+  padding: 0.5rem 15rem 1.75rem 15rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
 
   @media (max-width: 1100px) {
-    padding: 1.75rem 2rem;
+    padding: 0.5rem 2rem;
+  }
+
+  @media (min-width: 1200px) {
+    padding: 0.5rem 25rem 1.75rem 25rem;
   }
 
   .navbar-links {

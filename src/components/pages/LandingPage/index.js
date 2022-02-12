@@ -1,7 +1,4 @@
 import React from "react";
-import Button from "../../atoms/Button";
-import Link from "../../atoms/LinkWithArrow";
-import DownloadButton from "../../atoms/DownloadBtn";
 import Navbar from "../../molecules/Navbar";
 import Header from "../../organisms/Header";
 import Footer from "../../organisms/Footer";
@@ -11,7 +8,8 @@ import InfoSection from "../../organisms/InfoSection";
 import WomanWithAwardImage from "../../../assets/woman1-up-gaze.svg";
 import WomanWithBookimage from "../../../assets/woman2-peering-book.svg";
 import AstronautImage from "../../../assets/astronaut.svg";
-import ManWithbellImage from "../../../assets/man-with-bell.svg";
+import ManWithBellImage from "../../../assets/man-with-bell.svg";
+import AssetSection from "../../organisms/AssetSection";
 
 const LandingPage = () => {
   const infoDetails = [
@@ -37,7 +35,7 @@ const LandingPage = () => {
       header: "We remember so you dont have to",
       description:
         "Our Auto-invest feature makes it easy to stay consistent, even when you forget. Set a funding amount, frequency and payment method and Rise will automatically fund your investment, on schedule. ",
-      image: ManWithbellImage,
+      image: ManWithBellImage,
     },
   ];
 
@@ -46,7 +44,7 @@ const LandingPage = () => {
       <Navbar />
       <Header />
       <PartnerSection>
-        <img src={PartnerImage} alt="partners" />
+        <img src={PartnerImage} alt="partners" className="partner-image" />
       </PartnerSection>
       {infoDetails.map((info, index) => (
         <InfoSection
@@ -57,9 +55,7 @@ const LandingPage = () => {
           flexDirection={(index + 1) % 2 === 0 && "row-reverse"}
         />
       ))}
-      <Button text="Join our Community" textColor="#2d2d2d" bgColor="#07969E" />
-      <Link text="Start Investing Now" rightArrow />
-      <DownloadButton apple />
+      <AssetSection />
       <Footer />
     </>
   );

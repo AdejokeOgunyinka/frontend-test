@@ -6,10 +6,13 @@ const HeaderContainer = styled.header`
   display: flex;
   justify-content: space-between;
 
-  @media (max-width: 768px) {
+  @media (max-width: 900px) {
     flex-direction: column;
     padding: 2rem;
-    align-items: center;
+  }
+
+  @media (min-width: 1200px) {
+    padding: 3.5rem 25rem;
   }
 
   .inner {
@@ -17,7 +20,7 @@ const HeaderContainer = styled.header`
     height: 16.5rem;
     text-align: left;
 
-    @media (max-width: 768px) {
+    @media (max-width: 900px) {
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -33,7 +36,7 @@ const HeaderContainer = styled.header`
     line-height: 3.75rem;
     color: #07969e;
 
-    @media (max-width: 768px) {
+    @media (max-width: 900px) {
       font-size: 2rem;
     }
   }
@@ -51,8 +54,9 @@ const HeaderContainer = styled.header`
     width: 14.2rem;
     height: 28.8rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 900px) {
       margin-top: 3.5rem;
+      align-self: center;
     }
   }
 `;
