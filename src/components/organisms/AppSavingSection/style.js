@@ -6,6 +6,7 @@ const AppSavingSectionContainer = styled.section`
   column-gap: 10rem;
   align-items: center;
   justify-content: center;
+  margin-top: 3rem;
 
   @media (max-width: 768px) {
     display: none;
@@ -13,6 +14,7 @@ const AppSavingSectionContainer = styled.section`
 
   .app-savings-section {
     &__image {
+      filter: drop-shadow(0px 1.60087px 16.0087px rgba(53, 71, 89, 0.15));
     }
 
     &__container {

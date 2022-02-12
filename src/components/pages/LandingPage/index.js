@@ -2,8 +2,7 @@ import React from "react";
 import Navbar from "../../molecules/Navbar";
 import Header from "../../organisms/Header";
 import Footer from "../../organisms/Footer";
-import PartnerImage from "../../../assets/partners.webp";
-import { PartnerSection } from "./style";
+import PartnerSection from "../../organisms/PartnerSection";
 import InfoSection from "../../organisms/InfoSection";
 import WomanWithAwardImage from "../../../assets/woman1-up-gaze.svg";
 import WomanWithBookimage from "../../../assets/woman2-peering-book.svg";
@@ -48,9 +47,7 @@ const LandingPage = () => {
     <>
       <Navbar />
       <Header />
-      <PartnerSection>
-        <img src={PartnerImage} alt="partners" className="partner-image" />
-      </PartnerSection>
+      <PartnerSection />
       {infoDetails.map((info, index) => (
         <InfoSection
           header={info.header}
