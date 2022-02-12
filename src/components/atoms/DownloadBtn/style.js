@@ -6,7 +6,7 @@ const DownloadBtnContainer = styled.button`
   border: none;
   background-color: #2d2d2d;
   padding: 0.4em 0.8rem;
-  border-radius: 0.625rem;
+  border-radius: 0.3rem;
   display: flex;
   color: #fff;
   align-items: center;

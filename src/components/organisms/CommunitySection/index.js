@@ -20,7 +20,11 @@ const CommunitySection = () => {
           textColor="#2D2D2D"
         />
       </div>
-      <img src={CommunitySectionImage} alt="Community" />
+      <img
+        src={CommunitySectionImage}
+        alt="Community"
+        className="community__image"
+      />
     </CommunitySectionContainer>
   );
 };
