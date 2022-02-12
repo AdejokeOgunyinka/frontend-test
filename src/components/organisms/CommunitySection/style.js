@@ -11,7 +11,6 @@ const CommunitySectionContainer = styled.section`
     flex-direction: column-reverse;
     row-gap: 2.5rem;
     padding: 2rem;
-    /* width: 100%; */
   }
 
   .community {
@@ -21,6 +20,7 @@ const CommunitySectionContainer = styled.section`
 
     @media (max-width: 768px) {
       text-align: center;
+      width: 100%;
     }
 
     &__header {
@@ -36,6 +36,10 @@ const CommunitySectionContainer = styled.section`
       font-size: 1rem;
       margin: 0;
       margin: 0.5rem 0 1.5rem 0;
+    }
+
+    &__image {
+      width: 100%;
     }
   }
 `;

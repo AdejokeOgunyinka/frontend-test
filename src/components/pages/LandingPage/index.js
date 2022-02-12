@@ -13,6 +13,7 @@ import AssetSection from "../../organisms/AssetSection";
 import AppSavingsSection from "../../organisms/AppSavingSection";
 import RegulationSection from "../../organisms/RegulationSection";
 import CommunitySection from "../../organisms/CommunitySection";
+import DownloadSection from "../../organisms/DownloadSection";
 
 const LandingPage = () => {
   const infoDetails = [
@@ -62,6 +63,7 @@ const LandingPage = () => {
       <AppSavingsSection />
       <RegulationSection />
       <CommunitySection />
+      <DownloadSection />
       <Footer />
     </>
   );
