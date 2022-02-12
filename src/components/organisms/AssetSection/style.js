@@ -19,9 +19,7 @@ const AssetSectionContainer = styled.section`
       font-style: normal;
       font-weight: 600;
       font-size: 2.5rem;
-      /* line-height: 120%; */
       text-align: center;
-      /* letter-spacing: -0.05em; */
       color: #2d2d2d;
       margin: 0;
     }
@@ -31,9 +29,7 @@ const AssetSectionContainer = styled.section`
       font-style: normal;
       font-weight: normal;
       font-size: 1rem;
-      /* line-height: 24px; */
       text-align: center;
-      /* letter-spacing: -0.05em; */
       color: #2d2d2d;
       margin-top: 0.5rem;
       margin-bottom: 2rem;
@@ -43,10 +39,12 @@ const AssetSectionContainer = styled.section`
       display: flex;
       column-gap: 2.9rem;
       justify-content: center;
+      flex-wrap: wrap;
 
-      @media (max-width: 900px) {
+      @media (max-width: 950px) {
         flex-direction: column;
-        column-gap: 2rem;
+        row-gap: 2rem;
+        align-items: center;
       }
     }
   }
