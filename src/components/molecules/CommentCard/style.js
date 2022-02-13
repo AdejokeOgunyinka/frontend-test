@@ -10,6 +10,10 @@ const CommentCardContainer = styled.div`
   padding: 1rem;
   position: relative;
 
+  @media (max-width: 375px) {
+    width: 100%;
+  }
+
   .comment {
     &__header {
       font-family: "DM Sans", sans-serif;

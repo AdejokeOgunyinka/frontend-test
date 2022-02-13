@@ -39,6 +39,10 @@ const CommentSectionContainer = styled.section`
       column-gap: 1rem;
       justify-content: center;
 
+      @media (max-width: 1300px) {
+        justify-content: space-between;
+      }
+
       @media (max-width: 768px) {
         flex-direction: column;
         justify-content: center;
