@@ -40,11 +40,11 @@ const HeaderContainer = styled.header`
     font-family: "TomatoGroteskBold", sans-serif;
     font-weight: 600;
     font-size: 3.5rem;
-    line-height: 3.75rem;
     color: #07969e;
     margin: 0;
 
     @media (max-width: 900px) {
+      text-align: center;
       font-size: 2rem;
     }
   }
@@ -56,6 +56,10 @@ const HeaderContainer = styled.header`
     font-size: 1rem;
     line-height: 1.5rem;
     color: #4a5050;
+
+    @media (max-width: 768px) {
+      text-align: center;
+    }
   }
 
   .phone {
@@ -179,7 +183,7 @@ const HeaderContainer = styled.header`
   height: 180px;
 	left: 10px;
 	position: absolute;
-	width: 180px;
+	width: 10%;
 }
 `;
 

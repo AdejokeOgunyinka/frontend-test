@@ -9,6 +9,15 @@ const AssetCardContainer = styled.div`
   flex-direction: column;
   position: relative;
 
+  @media (max-width: 1300px) {
+    margin-bottom: 1rem;
+  }
+
+  @media (max-width: 350px) {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
   .asset-card {
     width: 100%;
 
@@ -30,6 +39,15 @@ const AssetCardContainer = styled.div`
       align-items: center;
       top: 4.5rem;
       left: 5.5rem;
+
+      @media (max-width: 350px) {
+        left: 3.5rem;
+      }
+
+      @media (max-width: 280px) {
+        top: 2rem;
+        left: 2.5rem;
+      }
 
       &__img {
         width: 5.3rem;
