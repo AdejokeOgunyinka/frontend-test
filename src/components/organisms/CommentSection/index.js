@@ -1,8 +1,8 @@
 import React from "react";
 import { CommentSectionContainer } from "./style";
-import LadeImage from "../../../assets/lade.svg";
-import JesseImage from "../../../assets/jesse.svg";
-import RayeImage from "../../../assets/raye.svg";
+import LadeImage from "../../../assets/lade.webp";
+import JesseImage from "../../../assets/jesse.webp";
+import RayeImage from "../../../assets/raye.webp";
 import CommentCard from "../../molecules/CommentCard";
 
 const CommentSection = () => {
